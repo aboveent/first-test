@@ -25,7 +25,7 @@ var campaignIterator = AdWordsApp.campaigns()
       } }
 }
                 if (errorUrls.length > 0) {
-       MailApp.sendEmail('larry.kim@mindshareworld.com',
+       MailApp.sendEmail('example@mindshareworld.com',
                     'Jaguar Brand Sitelink Errors!',
                          'There are sitelink errors! See report below: \n\n' + errorUrls.join('\n\n')); }
 }
